@@ -1,0 +1,68 @@
+{
+	"fields": [
+		{
+			"name": "SubscriptionName",
+			"title": "Subscription name",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "TotalSubscriptionsToDate",
+			"title": "Total number of subscriptions to date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "NewSubscriptionsToDate",
+			"title": "New subscriptions to date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "NewSubscriptionsThisPeriod",
+			"title": "New subscriptions this period",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "DeletedSubscriptionsToDate",
+			"title": "Deleted subscriptions to date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "DeletedSubscriptionsThisPeriod",
+			"title": "Deleted subscriptions this period",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "BulletinsSentThisPeriod",
+			"title": "Bulletins sent this period",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "TotalBulletinsSentToDate",
+			"title": "Total bulletins sent to date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
